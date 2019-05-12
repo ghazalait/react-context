@@ -1,0 +1,36 @@
+body {
+    font-size: .875rem;
+  letter-spacing: 1px;
+}
+
+.container {
+    margin: 10px 80px 0 80px;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    .language {
+        align-self: center;
+        width: 36%;
+    }
+    .logo {
+        padding: 5px;
+    }
+}
+
+.content {
+    width: 60%;
+    display: inline-block;
+}
+
+.sidebar {
+    width: 30%;
+    display:inline-block;
+    list-style: none;
+    li {
+        border-bottom: 1px dotted darkgray;
+        padding: 5px 0;
+    }
+}
